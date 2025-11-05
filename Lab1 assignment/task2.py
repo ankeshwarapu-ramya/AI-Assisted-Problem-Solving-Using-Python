@@ -1,7 +1,0 @@
-def reverse_string(s: str) -> str:
-    """Return the reversed version of the input string s."""
-    return s[::-1]
-
-if __name__ == "__main__":
-    user_input = input("Enter a string to reverse: ")
-    print("Reversed string:", reverse_string(user_input))
